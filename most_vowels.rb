@@ -6,6 +6,8 @@ end
 # Currently, it's not implemented correctly because it's just printing out
 # every letter in the word.
 def vowels_in_word(word)
+  # TODO: You will need to change the code in this method so it returns
+  # the number of vowels an invididual word contains.
   word.each_char do |char|
     puts "#{char}"
   end
@@ -16,9 +18,10 @@ end
 def most_vowels(sentence)
   words_as_array = sentence.strip.downcase.split(" ")
 
-  # now that we have the words in an array, we need to figure out which of the
+  # Nw that we have the words in an array, we need to figure out which of the
   # words has the most vowels. Then we should return the word.
-
+  # TODO: You will have to use a loop and call upon the vowels_in_word method
+  # to do this.
   return "NotImplementedYet"
 end
 
